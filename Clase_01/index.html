@@ -21,13 +21,13 @@
         <br>
         <div>
             <label for="telefonoUsuario">Teléfono Usuario</label>
-            <input type="number" name="telefonoUsuario" id="telefonoUsuario" placeholder="+57" required readonly >
+            <input type="number" name="telefonoUsuario" id="telefonoUsuario" placeholder="+57" required readonly>
         </div>
         <br>
         <hr>
         <div>
             <label for="correoUsuario">Correo Usuario</label>
-            <input type="email" name="correoUsuario" id="correoUsuario" pattern="[A-Za-z0-9._%+-]+@pascualbravo.edu.co" required>
+            <input type="email" name="correoUsuario" id="correoUsuario" pattern="[A-Za-z0-9._%+-]+@pascualbravo.edu.co">
         </div>
 
         <hr>
@@ -35,12 +35,15 @@
             <label for="salarioUsuario">Salario Usuario</label>
             <input type="number" name="salarioUsuario" id="salarioUsuario" size="20" min="1000" max="15000" required>
         </div>
-
+        <br>
+        <div>
+            <label for="fechaNacimiento">Fecha de nacimiento</label>
+            <input type="date" name="fechaNacimiento" id="fechaNacimiento" min="2023-02-01" max="2023-03-01">
+        </div>
         <br>
         <div>
             <button type="submit" name="btnEnviarFormulario">Enviar Formulario</button>
         </div>
-
     </form>
 
 
