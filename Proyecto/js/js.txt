@@ -1,1 +1,2 @@
 Javascript --> Node (Lado del servidor)
+CDN = Red de distribuciòn de contenidos (Bootstrap)
